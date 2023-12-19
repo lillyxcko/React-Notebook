@@ -3,6 +3,7 @@
 [node_modules](#node_modules)  |   [public](#public)   |   [App.tsx](#apptsx)  |   [index.html](#indexhtml)  |   [package.json](#packagejson)  |   [tsconfig.json](#tsconfigjson)  
 <br>
 
+:tiger: :high_brightness: :crown: :banana: :taxi:
 
 
 ## node_modules
