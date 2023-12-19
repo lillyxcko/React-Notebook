@@ -4,6 +4,10 @@
 <br>
 :maple_leaf: :basketball: :pizza: :tangerine: :boat: :small_orange_diamond:
 
+How to get a React app started for development.
+<br>
+
+
 # Install Node.js
 1. Open your command prompt or terminal window 
 2. Run `node -v`
