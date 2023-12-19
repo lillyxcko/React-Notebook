@@ -1,6 +1,6 @@
 ## Table of Contents
 
-[PascalCasing](#PascalCasing)  |   [className](#className)   |   [JSX: Javascript XML](#JSX-Javascript-XML)  |   [{} wrap](#-wrap-JS-expressions)  |   [Fragments](#fragments)  |   [State v. Props](#State-v-Props)  |   [<React.StrictMode>](#reactstrictmode)
+[PascalCasing](#PascalCasing)  |   [className](#className)   |   [JSX: Javascript XML](#JSX-Javascript-XML)  |   [{} wrap](#wrap-JS-expressions)  |   [Fragments](#fragments)  |   [State v. Props](#State-v-Props)  |   [<React.StrictMode>](#reactstrictmode)
 
 :tiger: :high_brightness: :crown: :banana: :taxi: :hatched_chick:
 
