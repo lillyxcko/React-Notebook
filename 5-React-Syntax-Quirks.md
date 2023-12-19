@@ -1,5 +1,13 @@
+## Table of Contents
 
-### functions & variables are written in PascalCasing
+[PascalCasing](#PascalCasing)  |   [className](#className)   |   [JSX: Javascript XML](#)  |   [{} wrap](#)  |   [Fragments](#fragments)  |   [State v. Props](#)  |   [<React.StrictMode>](#)
+
+:tiger: :high_brightness: :crown: :banana: :taxi: :hatched_chick:
+
+<br>
+
+### PascalCasing
+- functions are variables are written in PascalCasing
 - Capitalize the first letter of the word, and the first letter of each word that follows
 ```
 NumberOfDonuts = 34
