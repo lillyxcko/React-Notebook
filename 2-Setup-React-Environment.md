@@ -66,4 +66,6 @@ How to get a React app started for development.
     Tip: To in VS Code go to: Preferences > Settings => Search: "format on save" => check the box under "Editor: Format On Save"
     This allows Prettier to format the code every time the file is saved. 
 
+### ES7 + React/Redux/React-Native sn
+    - allows you to type `rafce` to quickly export a React function template to your file.
     
