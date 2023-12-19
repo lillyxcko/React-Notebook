@@ -6,7 +6,7 @@
 
 <h5>Dynamic Handling:</h5> 
 
-[Conditional Rendering](#conditional-rendering)  |   [Props](#props)  |   [State](#state)  |   [State v. Props](#State-v-Props)  |   
+[Conditional Rendering](#conditional-rendering)  |   [Props](#props)  |   [useState](#state)  |   [State v. Props](#State-v-Props)  |   
 
 <h5>Other:</h5> 
 
@@ -118,7 +118,7 @@ const App = () => {
 
 <br>
 
-## State
+## useState
 1. import useState hook `import { useState } from 'react';`
 2. inside component at top: `const [] = useState();`
 3. destructure the array - index 0 in the array is the name of the state, index 1 is the setter function - named with 'set':
@@ -140,6 +140,7 @@ const App = () => {
 }
 ```
 > This creates a counter that can increment and decrement the count with + / - buttons.
+> The state (in this case `counter` should never be directly mutated); it re-renders based on the setState (in this case `setCounter`).
 
 > Note: `prevCount` is a parameter of the setState, can be called anything 
 
@@ -153,6 +154,11 @@ const App = () => {
 | - mutable                    | - immutable                     |
 
 Takeaway: use states if the attribute may be altered at some point, and props if the attribute should not and will not change.
+
+<br>
+
+## useEffect
+1. import useEffect hook `import { useEffect } from 'react';`
 
 <br>
 
