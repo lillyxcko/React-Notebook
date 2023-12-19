@@ -1,7 +1,7 @@
 ## Table of Contents
 
 [Install Node.js](#install-nodejs)  |   [Create React App](#create-a-react-app)   |   [Useful IDE Extensions](#useful-ide-extensions)  
-<br>
+
 :maple_leaf: :basketball: :pizza: :tangerine: :boat: :small_orange_diamond:
 
 How to get a React app started for development.
