@@ -40,6 +40,17 @@ Fragments are empty brackets `<> </>`.
 
 <br>
 
+### State v. Props
+| State                        | Props                           |
+|------------------------------|---------------------------------|
+| - managed within components  | - gets passed to the component  |
+| - triggers re-render         | - triggers re-render            |
+| - mutable                    | - immutable                     |
+
+Takeaway: use states if the attribute may be altered at some point, and props if the attribute should not and will not change.
+
+<br>
+
 ### <React.StrictMode>
 Find it in main.tsx file. It is a built-in component in React that does not have visual representation. Used to identify potential problems.
 Typically encapsules an <App /> component, which is the root component that organizes all other components in the React app.
