@@ -1,6 +1,6 @@
 ## Table of Contents
 
-[Install Node.js](#install-nodejs)  |   [Create React App](#create-a-react-app)   |   [Useful IDE Extensions](#useful-ide-extensions)  
+[Install Node.js](#install-nodejs)  |   [Create React App](#create-a-react-app)   | [Importing Libraries](#example-importing-bootstrap5-library) | [Useful IDE Extensions](#useful-ide-extensions)  
 
 :maple_leaf: :basketball: :pizza: :tangerine: :boat: :small_orange_diamond:
 
@@ -40,6 +40,21 @@ How to get a React app started for development.
 <img src="https://github.com/lillyxcko/React-Notebook/assets/79551113/0b993e00-3c58-40cf-9a08-e4ba0dc16927" alt="image" width="300"/>
 
 <br> <br>
+
+
+## Example: Importing Bootstrap5 library
+
+1. Open a terminal and navigate to your react app folder.
+2. `npm install boostrap@latest`
+3. src > App.css => [remove] the contents of the entire App.css file
+4. src > index.css => [delete] the file entirely 
+5. src > main.tsx => [remove] the `./index.css` import
+6. add to main.tsx
+   ```
+   import 'bootstrap/dist/css/bootstrap.css'
+   ```
+
+<br>
 
 
 # Useful IDE Extensions 
