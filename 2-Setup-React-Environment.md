@@ -5,6 +5,7 @@
 :maple_leaf: :basketball: :pizza: :tangerine: :boat: :small_orange_diamond:
 
 How to get a React app started for development.
+
 <br>
 
 
