@@ -140,7 +140,7 @@ const App = () => {
 }
 ```
 > This creates a counter that can increment and decrement the count with + / - buttons.
-> The state (in this case `counter` should never be directly mutated); it re-renders based on the setState (in this case `setCounter`).
+> The state (in this case `counter` should never be directly mutated); it can only be changed from the setState (in this case `setCounter`).
 
 > Note: `prevCount` is a parameter of the setState, can be called anything 
 
