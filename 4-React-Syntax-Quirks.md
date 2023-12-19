@@ -39,6 +39,9 @@ function MessageHere(){
 ## { } wrap JS expressions
 Expressions are code that produces a value. Typically { } wraps data that you want to render dynamically. 
 
+`<p> {2 + 2} </p>`
+> outputs 4 
+
 <br>
 
 ## Fragments
