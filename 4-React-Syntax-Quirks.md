@@ -114,6 +114,8 @@ const App = () => {
 ```
 > Props are used to pass immutable data to components.
 
+> Note: In this case where the props passed are simple strings, the { } wrap is not necessary. The { } is only needed for expressions where a value is 'calculated' and passed out.
+
 <br>
 
 ## State v. Props
