@@ -167,6 +167,8 @@ import useEffect hook `import { useEffect } from 'react';`
 This will start the counter at 100. 
 > The `}, []);` portion is setting the dependency array to be empty. When the dependency array is empty, the setState only occurs at the initial load of the component, therefore allowing typical toggling of the counter. Without it, setCounter will be set to back 100 repeatedly after every time a + / - button clicked.
 
+> If the dependency array has a variable inside, the setState will be triggered to re-render every time that variable changes.
+
 <br>
 
 ## <React.StrictMode>
