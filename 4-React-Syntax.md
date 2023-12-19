@@ -6,7 +6,7 @@
 
 <h5>Dynamic Handling:</h5> 
 
-[Conditional Rendering](#conditional-rendering)  |   [Props](#props)  |   [useState](#state)  |   [State v. Props](#State-v-Props)  |   
+[Conditional Rendering](#conditional-rendering)  |   [Props](#props)  |   [useState](#state)  |   [State v. Props](#State-v-Props)  |   [useEffect](#useEffect)  |   
 
 <h5>Other:</h5> 
 
@@ -164,10 +164,18 @@ import useEffect hook `import { useEffect } from 'react';`
     setCounter(100);
   }, []);
 ```
-This will start the counter at 100. 
+This will start the counter at 100 when page reloads. 
 > The `}, []);` portion is setting the dependency array to be empty. When the dependency array is empty, the setState only occurs at the initial load of the component, therefore allowing typical toggling of the counter. Without it, setCounter will be set to back 100 repeatedly after every time a + / - button clicked.
 
-> If the dependency array has a variable inside, the setState will be triggered to re-render every time that variable changes. (therefore if the setState is being set, the variable inside the dependency array should never be the state! == infinite loop)
+<br>
+
+```
+  useEffect(() => {
+    alert("You've changed the counter to" + counter);
+  }, [counter]);
+```
+Sends an alert every time the counter changes.
+> If the dependency array has a variable inside, the setState will be triggered to re-render every time that variable changes. 
 
 <br>
 
