@@ -78,6 +78,34 @@ const App = () => {
 
 <br>
 
+## Props
+
+```
+const Person = (props) => {
+  return (
+    <>
+      <h1> Name: {props.name}</h1>
+      <h2> Last Name: Brown </h2>
+      <h2> Age: {props.age} </h2>
+    </>
+  )
+}
+
+const App = () => {
+
+  return (
+    <div className ="App">
+      <Person name={'Charlie'} age={'2'}/>
+      <Person name={'Snoopy'} age={'13'}/>
+      <Person />
+    </div>
+  )
+}
+```
+> Props are used to pass immutable data to components.
+
+<br>
+
 ## State v. Props
 | State                        | Props                           |
 |------------------------------|---------------------------------|
