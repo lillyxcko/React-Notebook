@@ -1,3 +1,7 @@
+# Table of Contents
+
+[Install Node.js](#install-nodejs)  |   [Create React App](#create-a-react-app)   |   [Useful IDE Extensions](#useful-ide-extensions)  
+
 # Install Node.js
 1. Open your command prompt or terminal window 
 2. Run `node -v`
@@ -12,11 +16,10 @@
 3. Specify project name (is `vite-project` by default)
 4. Select a framework (arrow key down to React)
 
+
+<img src="https://github.com/lillyxcko/React-Notebook/assets/79551113/43009b50-2058-48f5-bc95-c8e6e2db5f98" alt="image" width="400"/>
+
 <br>
-
-![image](https://github.com/lillyxcko/React-Notebook/assets/79551113/43009b50-2058-48f5-bc95-c8e6e2db5f98)
-
-<br> 
 
 5. Navigate to the project folder you just created (`vite-project` or your custom name)
 6. Run `npm install`
@@ -25,11 +28,12 @@
 9. Run `npm run dev` in the IDE terminal
 10. Vist the local host url it gives you to see your React & Vite App running on your local computer.
 
-<br> 
+<br>
 
-![image](https://github.com/lillyxcko/React-Notebook/assets/79551113/0b993e00-3c58-40cf-9a08-e4ba0dc16927)
+<img src="https://github.com/lillyxcko/React-Notebook/assets/79551113/0b993e00-3c58-40cf-9a08-e4ba0dc16927" alt="image" width="300"/>
 
-<br> 
+<br> <br>
+
 
 # Useful IDE Extensions 
 > this guide uses VS Code
