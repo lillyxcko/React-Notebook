@@ -118,6 +118,33 @@ const App = () => {
 
 <br>
 
+## State
+1. import useState hook `import { useState } from 'react';`
+2. inside component at top: `const [] = useState();`
+3. destructure the array - index 0 in the array is the name of the state, index 1 is the setter function - named with 'set':
+    `const [counter, setCounter] = useState();`
+4. define the initial value `const [counter, setCounter] = useState(0);`
+```
+import { useState } from 'react';
+
+const App = () => {
+  const [counter, setCounter] = useState(0);
+
+  return (
+    <div className ="App">
+      <button onClick={() => setCounter((prevCount) => prevCount - 1)}>-</button>
+      <h1> {counter} </h1>
+      <button onClick={() => setCounter((prevCount) => prevCount + 1)}>+</button>
+    </div>
+  )
+}
+```
+> This creates a counter that can increment and decrement the count with + / - buttons.
+
+> Note: `prevCount` is a parameter of the setState, can be called anything 
+
+<br>
+
 ## State v. Props
 | State                        | Props                           |
 |------------------------------|---------------------------------|
