@@ -29,7 +29,7 @@ function MessageHere(){
 <br> 
 
 ### { } wrap JS expressions
-expressions are code that produces a value.
+Expressions are code that produces a value. Typically { } wraps data that you want to render dynamically. 
 
 <br>
 
