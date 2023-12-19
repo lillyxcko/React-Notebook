@@ -1,10 +1,16 @@
 ## Table of Contents
 
-<h5>Basics:</h5> [PascalCasing](#PascalCasing)  |   [className](#className)   |   [JSX: Javascript XML](#JSX-Javascript-XML)  |   [{} wrap](#--wrap-JS-expressions)  |   [Fragments](#fragments)  |
+<h5>Basics:</h5> 
 
-<h5>Dynamic Handling:</h5> [Conditional Rendering](#conditional-rendering)  |   [Props](#props)  |  [State v. Props](#State-v-Props)  |   
+[PascalCasing](#PascalCasing)  |   [className](#className)   |   [JSX: Javascript XML](#JSX-Javascript-XML)  |   [{} wrap](#--wrap-JS-expressions)  |   [Fragments](#fragments)  |
 
-<h5>Other:</h5> [<React.StrictMode>](#reactstrictmode)
+<h5>Dynamic Handling:</h5> 
+
+[Conditional Rendering](#conditional-rendering)  |   [Props](#props)  |  [State v. Props](#State-v-Props)  |   
+
+<h5>Other:</h5> 
+
+[<React.StrictMode>](#reactstrictmode)
 
 :turtle: :herb: :golf: :seedling: :melon: :dragon:
 
