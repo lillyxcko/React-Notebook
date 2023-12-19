@@ -38,7 +38,7 @@
 
 
 # Useful IDE Extensions 
-> this guide uses VS Code
+> on VS Code
 
 ### Prettier - Code format
     - helps you format your code
