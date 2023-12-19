@@ -36,7 +36,7 @@ expressions are code that produces a value.
 ### Fragments
 A component can only return one element. So, to have multiple elements in one component, wrap it all in a "Fragment".
 Fragments are empty brackets `<> </>`. 
-> Tip: to quickly wrap a body of code, go to view > command palette OR [shift + cmd + P]. Search for wrap with abbreviation. Select it, then type in the element you want to use to wrap the selected body of code in (e.g. <div>)
+> Tip: to quickly wrap a body of code, go to view > command palette OR [shift + cmd + P]. Search for wrap with abbreviation. Select it, then type in the element you want to use to wrap the selected body of code in (e.g. `<div>`)
 
 <br>
 
