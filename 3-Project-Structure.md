@@ -1,9 +1,10 @@
 ## Table of Contents
 
 [node_modules](#node_modules)  |   [public](#public)   |   [App.tsx](#apptsx)  |   [index.html](#indexhtml)  |   [package.json](#packagejson)  |   [tsconfig.json](#tsconfigjson)  
-<br>
 
-:tiger: :high_brightness: :crown: :banana: :taxi:
+:tiger: :high_brightness: :crown: :banana: :taxi: :tiger:
+
+<br>
 
 
 ## node_modules
