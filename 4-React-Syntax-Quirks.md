@@ -51,6 +51,33 @@ Fragments are empty brackets `<> </>`.
 
 <br>
 
+## Conditional Rendering
+```
+const App = () => {
+  const name = "Snoopy"
+  const isDay = false
+
+  return (
+    <div className ="App">
+      <h1>Hello, {name} </h1>
+      {isDay ? (
+        <>
+          Good Morning!
+        </>
+      ) : (
+        <>
+        Good Night!
+        </>
+      )}
+    </div>
+  )
+}
+```
+> This code displays "Good Morning" if const isDay is set true and "Good Night" if isday is set false.
+> Basic breakdown of if/else statement: `{ statement ? ( run-if-true ) : ( run-else ) }`
+
+<br>
+
 ## State v. Props
 | State                        | Props                           |
 |------------------------------|---------------------------------|
