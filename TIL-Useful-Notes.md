@@ -11,3 +11,5 @@ It is a short and sweet alternative to
 
 `{ items.length === 0 ? <p> Nothing here. </p> : null }`
 
+`{ items.length === 0 && 'Nothing here.'}`
+
