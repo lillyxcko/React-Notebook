@@ -158,7 +158,14 @@ Takeaway: use states if the attribute may be altered at some point, and props if
 <br>
 
 ## useEffect
-1. import useEffect hook `import { useEffect } from 'react';`
+import useEffect hook `import { useEffect } from 'react';`
+```
+  useEffect(() => {
+    setCounter(100);
+  }, []);
+```
+This will start the counter at 100. 
+> The `}, []);` portion is setting the dependency array to be empty. When the dependency array is empty, the setState only occurs at the initial load of the component. Without it, the serCounter will be set to 100 repeatedly after every time a + / - button clicked.
 
 <br>
 
