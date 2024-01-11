@@ -105,8 +105,14 @@ const App = () => {
 
   return (
     <div className ="App">
-      <Person name={'Charlie'} age={'2'}/>
-      <Person name={'Snoopy'} age={'13'}/>
+      <Person
+        name={'Charlie'}
+        age={'2'}
+      />
+      <Person
+        name={'Snoopy'}
+        age={'13'}
+      />
       <Person />
     </div>
   )
@@ -115,6 +121,44 @@ const App = () => {
 > Props are used to pass immutable data to components.
 
 > Note: In this case where the props passed are simple strings, the { } wrap is not necessary. The { } is only needed for expressions where a value is 'calculated' and passed out.
+
+### Destructuring Props
+```
+export default function Contact({img, name, phone, email}) {
+    return (
+        <div className="contact-card">
+            <img src={img}/>
+            <h3>{name}</h3>
+            <div className="info-group">
+                <img src="./images/phone-icon.png" />
+                <p>{phone}</p>
+            </div>
+            <div className="info-group">
+                <img src="./images/mail-icon.png" />
+                <p>{email}</p>
+            </div>
+        </div>
+    )
+}
+
+export deafult function App() {
+    return (
+        <div className="contacts">
+            <Contact 
+                img="./images/mr-whiskerson.png" 
+                name="Mr. Whiskerson"
+                phone="(212) 555-1234"
+                email="mr.whiskaz@catnap.meow"
+            />
+        </div>
+    )
+}
+```
+> Instead of passing 'props' into the component function, you may destructure the Prop so that you only need to enter {variablename} and not {prop.variablename}.
+> Destructuring the prop: you may only destrcuture what you need from that prop in that component
+    > e.g. even though the above prop has variables img, name, phone, email - can pass only Component({img, name}) 
+
+> You may notice the syntaxes are different between the first and second exmaples for Props. Both are valid, but the first one is a more modernized method.
 
 <br>
 
