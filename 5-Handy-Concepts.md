@@ -5,8 +5,7 @@
 [MappingComponents](#MappingComponents)  |   [Pass: ObjectsAsProps](#pass-objects-as-props)   |   [Spread: ObjectsAsProps](#spread-objects-as-props)   |   
 
 
-:ocean: :whale: :milky_way: :postbox: :gem: :oncoming_automobile:
-
+<hr>
 <br>
 
 ## Mapping Components
