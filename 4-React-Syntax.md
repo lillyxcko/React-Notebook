@@ -1,4 +1,4 @@
-## Table of Contents
+## Table of Contents :full_moon_with_face:
 
 <h5>Basics:</h5> 
 
