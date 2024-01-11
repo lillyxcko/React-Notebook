@@ -75,7 +75,7 @@ export default function App() {
     )
 }
 ```
-But this also means when you access the prop in the Component you will need to have: `{props.joke.setup}` instead of `{props.setup}`
+But this also means when you access the prop in the Component you will need to have: `{props.joke.setup}` instead of `{props.setup}`. 
 
 <br>
 
@@ -102,5 +102,7 @@ export default function App() {
     )
 }
 ```
-When accessing the prop in the Component you can access properties by: `{props.setup}` as usual.
+When accessing the prop in the Component you can access properties by: `{props.setup}` as usual. 
+
+(`setup` here is a property name)
 
