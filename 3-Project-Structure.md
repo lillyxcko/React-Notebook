@@ -2,10 +2,10 @@
 
 [node_modules](#node_modules)  |   [public](#public)   |   [App.tsx](#apptsx)  |   [index.html](#indexhtml)  |   [package.json](#packagejson)  |   [tsconfig.json](#tsconfigjson)  
 
-:tiger: :high_brightness: :crown: :banana: :taxi: :hatched_chick:
-
+<hr>
    A brief overview of the most important files/folders imported in a default React project.
 
+<hr>
 <br>
 
 ## node_modules
