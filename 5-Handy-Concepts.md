@@ -102,5 +102,5 @@ export default function App() {
     )
 }
 ```
-You may access the prop in the Component you can access properties by: `{props.setup}` as usual.
+When accessing the prop in the Component you can access properties by: `{props.setup}` as usual.
 
