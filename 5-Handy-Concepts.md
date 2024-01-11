@@ -56,7 +56,7 @@ export default function App() {
 ### Pass Objects as Props
 - especially if the object has multiple properties it can become arduous to list out each one in the map( ) function.
   
-Alternative:
+Example:
 ```javascript
 export default function App() {
     const jokeElements = jokesData.map(joke => {
@@ -83,7 +83,7 @@ But this also means when you access the prop in the Component you will need to h
 - especially if the object has multiple properties it can become arduous to list out each one in the map( ) function.
 - this is a shortcut to listing each property out, but using a different method than passing objects as props.
   
-Alternative:
+Example:
 ```javascript
 export default function App() {
     const jokeElements = jokesData.map(joke => {
