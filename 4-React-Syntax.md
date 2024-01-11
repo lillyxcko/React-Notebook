@@ -12,8 +12,8 @@
 
 [<React.StrictMode>](#reactstrictmode)
 
-:turtle: :herb: :golf: :seedling: :melon: :dragon:
 
+<hr>
 <br>
 
 ## PascalCasing
