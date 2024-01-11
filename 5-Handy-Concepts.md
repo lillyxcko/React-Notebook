@@ -15,22 +15,22 @@
 Documentation: [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 Examples:
-```
+```javascript
 const nums = [1, 2, 3, 4, 5]
 const squared = nums.map(nums => nums * nums);
 
-==> console.log(squared) returns [1, 4, 9, 16, 25]
+// ==> console.log(squared) returns [1, 4, 9, 16, 25]
 
 -----------------------------------------------------------------------------------------------
 
 const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
 const paragraphs = pokemon.map(mon => `<p>${mon}</p>`)
 
-==> console.log(paragraphs) returns ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+// ==> console.log(paragraphs) returns ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
 ```
 
 Using map( ) in Components:
-```
+```javascript
 export default function App() {
     const jokeElements = jokesData.map(joke => {
         return <Joke
@@ -57,7 +57,7 @@ export default function App() {
 - especially if the object has multiple properties it can become arduous to list out each one in the map( ) function.
   
 Alternative:
-```
+```javascript
 export default function App() {
     const jokeElements = jokesData.map(joke => {
         return <Joke
@@ -84,7 +84,7 @@ But this also means when you access the prop in the Component you will need to h
 - this is a shortcut to listing each property out, but using a different method than passing objects as props.
   
 Alternative:
-```
+```javascript
 export default function App() {
     const jokeElements = jokesData.map(joke => {
         return <Joke
