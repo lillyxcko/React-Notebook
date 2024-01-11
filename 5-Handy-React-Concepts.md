@@ -10,7 +10,7 @@
 <br>
 
 ## Mapping Components
-- use JavaScript array mapping method to render components efficently 
+- use JavaScript array map() method to render components efficently 
 
 Documentation: [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
