@@ -1,4 +1,4 @@
-## Table of Contents
+## Table of Contents :books:
 
 [Install Node.js](#install-nodejs)  |   [Create React App](#create-a-react-app)   | [Importing Libraries](#example-importing-bootstrap5-library) | [Useful IDE Extensions](#useful-ide-extensions)  
 
