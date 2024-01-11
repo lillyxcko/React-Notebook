@@ -122,6 +122,7 @@ const App = () => {
 
 > Note: In this case where the props passed are simple strings, the { } wrap is not necessary. The { } is only needed for expressions where a value is 'calculated' and passed out.
 
+
 ### Destructuring Props
 ```
 export default function Contact({img, name, phone, email}) {
@@ -155,8 +156,10 @@ export deafult function App() {
 }
 ```
 > Instead of passing 'props' into the component function, you may destructure the Prop so that you only need to enter {variablename} and not {prop.variablename}.
+
 > Destructuring the prop: you may only destrcuture what you need from that prop in that component
-    > e.g. even though the above prop has variables img, name, phone, email - can pass only Component({img, name}) 
+
+    > e.g. even though the above prop has variables img, name, phone, email - can destructure only some: Component({img, name}) 
 
 > You may notice the syntaxes are different between the first and second exmaples for Props. Both are valid, but the first one is a more modernized method.
 
