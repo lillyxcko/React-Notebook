@@ -9,7 +9,7 @@
 ## 4
 
 ## 5 
-[Mapping Components](https://github.com/lillyxcko/React-Notebook/blob/main/5-Handy-Concepts.md#MappingComponents)
+[Mapping Components](https://github.com/lillyxcko/React-Notebook/blob/main/5-Handy-Concepts.md#MappingComponents)     |     [Pass Objects as Props](https://github.com/lillyxcko/React-Notebook/blob/main/5-Handy-Concepts.md#pass-objects-as-props)
 
 ## Extra: 
 
