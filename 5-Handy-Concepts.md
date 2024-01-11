@@ -2,7 +2,7 @@
 
 <h5>Concepts:</h5> 
 
-[MappingComponents](#MappingComponents)  |   [className](#className)   |  
+[MappingComponents](#MappingComponents)  |   [ObjectsAsProps](#pass-objects-as-props)   |  
 
 
 :ocean: :whale: :milky_way: :postbox: :gem: :oncoming_automobile:
