@@ -3,7 +3,7 @@
 true && 'Snoopy'
 > Snoopy
 
-flase && 'Snoopy'
+false && 'Snoopy'
 > false
 ```
 You can use this syntax to display information if something is true/false. 
