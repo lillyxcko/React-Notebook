@@ -2,7 +2,7 @@
 
 <h5>Concepts:</h5> 
 
-[MappingComponents](#MappingComponents)  |   [ObjectsAsProps](#pass-objects-as-props)   |  
+[MappingComponents](#MappingComponents)  |   [Pass: ObjectsAsProps](#pass-objects-as-props)   |   [Spread: ObjectsAsProps](#spread-objects-as-props)   |   
 
 
 :ocean: :whale: :milky_way: :postbox: :gem: :oncoming_automobile:
@@ -78,3 +78,29 @@ export default function App() {
 But this also means when you access the prop in the Component you will need to have: `{props.joke.setup}` instead of `{props.setup}`
 
 <br>
+
+### Spread Objects as Props
+- especially if the object has multiple properties it can become arduous to list out each one in the map( ) function.
+- this is a shortcut to listing each property out, but using a different method than passing objects as props.
+  
+Alternative:
+```
+export default function App() {
+    const jokeElements = jokesData.map(joke => {
+        return <Joke
+            {...joke}
+
+            //--instead of--//
+            //setup={joke.setup}
+            //punchline={joke.punchline}
+        />
+    })
+    return (
+        <div>
+            {jokeElements}
+        </div>
+    )
+}
+```
+You may access the prop in the Component you can access properties by: `{props.setup}` as usual.
+
