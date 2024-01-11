@@ -52,3 +52,28 @@ export default function App() {
 > The result of the map operation, which is an array of Joke components, is stored in the jokeElements variable.
 
 <br>
+
+### Pass Objects as Props
+- especially if the object has multiple properties it can become arduous to list out each one in the map( ) function
+Alternative:
+```
+export default function App() {
+    const jokeElements = jokesData.map(joke => {
+        return <Joke
+            joke={joke}
+
+            //--instead of--//
+            //setup={joke.setup}
+            //punchline={joke.punchline}
+        />
+    })
+    return (
+        <div>
+            {jokeElements}
+        </div>
+    )
+}
+```
+But this also means when you access the prop in the Component you will need to have: `{props.joke.setup}` instead of `{props.setup}`
+
+<br>
