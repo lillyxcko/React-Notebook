@@ -54,7 +54,8 @@ export default function App() {
 <br>
 
 ### Pass Objects as Props
-- especially if the object has multiple properties it can become arduous to list out each one in the map( ) function
+- especially if the object has multiple properties it can become arduous to list out each one in the map( ) function.
+  
 Alternative:
 ```
 export default function App() {
