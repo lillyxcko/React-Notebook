@@ -19,7 +19,7 @@
 ## PascalCasing
 - functions are variables are written in PascalCasing
 - Capitalize the first letter of the word, and the first letter of each word that follows
-```
+```javascript
 NumberOfDonuts = 34
 
 FavePhrase = "Hello World"
@@ -36,7 +36,7 @@ Instead of HTML "class", classes are defined by "className".
 > use JSX syntax within functions
 
 > Pros of JSX: create dynamic content easily
-```
+```javascript
 function MessageHere(){
   const name = 'Lilly';
   return <h1> Hello {name}! </h1>
@@ -62,7 +62,7 @@ Fragments are empty brackets `<> </>`.
 <br>
 
 ## Conditional Rendering
-```
+```javascript
 const App = () => {
   const name = "Snoopy"
   const isDay = false
@@ -90,7 +90,7 @@ const App = () => {
 
 ## Props
 
-```
+```javascript
 const Person = (props) => {
   return (
     <>
@@ -124,7 +124,7 @@ const App = () => {
 
 
 ### Destructuring Props
-```
+```javascript
 export default function Contact({img, name, phone, email}) {
     return (
         <div className="contact-card">
@@ -164,7 +164,7 @@ export deafult function App() {
 > You may notice the syntaxes are different between the first and second exmaples for Props. Both are valid, but the first one is a more modernized method.
 
 ### Bonus: image Props
-```
+```javascript
   <img src={`../images/${props.img}`} className="card-image" />
 ```
 > Anything in { } is interpreted as javascript
@@ -177,7 +177,7 @@ export deafult function App() {
 3. destructure the array - index 0 in the array is the name of the state, index 1 is the setter function - named with 'set':
     `const [counter, setCounter] = useState();`
 4. define the initial value `const [counter, setCounter] = useState(0);`
-```
+```javascript
 import { useState } from 'react';
 
 const App = () => {
@@ -212,7 +212,7 @@ Takeaway: use states if the attribute may be altered at some point, and props if
 
 ## useEffect
 import useEffect hook `import { useEffect } from 'react';`
-```
+```javascript
   useEffect(() => {
     setCounter(100);
   }, []);
@@ -222,7 +222,7 @@ This will start the counter at 100 when page reloads.
 
 <br>
 
-```
+```javascript
   useEffect(() => {
     alert("You've changed the counter to" + counter);
   }, [counter]);
