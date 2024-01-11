@@ -28,4 +28,24 @@ const paragraphs = pokemon.map(mon => `<p>${mon}</p>`)
 
 ==> console.log(paragraphs) returns ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
 ```
+
+Using map() in Components:
+```
+export default function App() {
+    const jokeElements = jokesData.map(joke => {
+        return <Joke setup={joke.setup} punchline={joke.punchline} />
+    })
+    return (
+        <div>
+            {jokeElements}
+        </div>
+    )
+}
+```
+> The above example reads from an array of objects in a "jokesData" file. The objects in the file have "setup" and "punchline" properities. 
+
+> For each object in "jokesData", a new Joke component is created with the "setup" and "punchline" properties as props.
+
+> The result of the map operation, which is an array of Joke components, is stored in the jokeElements variable.
+
 <br>
