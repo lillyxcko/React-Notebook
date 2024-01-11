@@ -10,7 +10,7 @@
 <br>
 
 ## Mapping Components
-- use JavaScript array map() method to render components efficently 
+- use JavaScript array map( ) method to render components efficently 
 
 Documentation: [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
@@ -29,7 +29,7 @@ const paragraphs = pokemon.map(mon => `<p>${mon}</p>`)
 ==> console.log(paragraphs) returns ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
 ```
 
-Using map() in Components:
+Using map( ) in Components:
 ```
 export default function App() {
     const jokeElements = jokesData.map(joke => {
