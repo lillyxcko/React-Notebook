@@ -1,4 +1,4 @@
-## Table of Contents
+## Table of Contents :seedling:
 
 [node_modules](#node_modules)  |   [public](#public)   |   [App.tsx](#apptsx)  |   [index.html](#indexhtml)  |   [package.json](#packagejson)  |   [tsconfig.json](#tsconfigjson)  
 
