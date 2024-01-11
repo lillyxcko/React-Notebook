@@ -2,10 +2,10 @@
 
 [Install Node.js](#install-nodejs)  |   [Create React App](#create-a-react-app)   | [Importing Libraries](#example-importing-bootstrap5-library) | [Useful IDE Extensions](#useful-ide-extensions)  
 
-:maple_leaf: :basketball: :pizza: :tangerine: :boat: :small_orange_diamond:
+<hr>
 
 How to get a React app started for development.
-
+<hr>
 <br>
 
 
