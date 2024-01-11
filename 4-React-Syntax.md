@@ -163,6 +163,12 @@ export deafult function App() {
 
 > You may notice the syntaxes are different between the first and second exmaples for Props. Both are valid, but the first one is a more modernized method.
 
+### Bonus: image Props
+```
+  <img src={`../images/${props.img}`} className="card-image" />
+```
+> Anything in { } is interpreted as javascript
+
 <br>
 
 ## useState
