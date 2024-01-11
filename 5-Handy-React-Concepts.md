@@ -5,7 +5,7 @@
 [MappingComponents](#MappingComponents)  |   [className](#className)   |  
 
 
-:turtle: :herb: :golf: :seedling: :melon: :dragon:
+:ocean: :whale: :milky_way: :postbox: :gem: :oncoming_automobile:
 
 <br>
 
