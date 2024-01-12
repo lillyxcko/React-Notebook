@@ -6,7 +6,7 @@
 
 <h5>Dynamic Handling:</h5> 
 
-[Conditional Rendering](#conditional-rendering)  |   [Props](#props)  |   [useState](#state)  |   [State v. Props](#State-v-Props)  |   [useEffect](#useEffect)  |   
+[Conditional Rendering](#conditional-rendering)  |   [Props](#props)  |   [useState](#usestate)  |   [State v. Props](#State-v-Props)  |   [useEffect](#useEffect)  |   
 
 <h5>Other:</h5> 
 
