@@ -9,9 +9,12 @@
 ## 3 Project Structure
 [node_modules](https://github.com/lillyxcko/React-Notebook/blob/main/3-Project-Structure.md#node_modules)     |     [public](https://github.com/lillyxcko/React-Notebook/blob/main/3-Project-Structure.md#public)     |     [App.tsx](https://github.com/lillyxcko/React-Notebook/blob/main/3-Project-Structure.md#apptsx)     |     [index.html](https://github.com/lillyxcko/React-Notebook/blob/main/3-Project-Structure.md#indexhtml)     |     [package.json](https://github.com/lillyxcko/React-Notebook/blob/main/3-Project-Structure.md#packagejson)     |     [tsconfig.json](https://github.com/lillyxcko/React-Notebook/blob/main/3-Project-Structure.md#tsconfigjson)
 
-## 4
+## 4 React Syntax Basics
+[PascalCasing](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#PascalCasing)     |     [className](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#className)     |     [JSX: Javascript XML](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#jsx-javascript-xml)     |     [{ } wrap JS](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#jsx-javascript-xml)     |     [Fragments](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#fragments)     |
 
-## 5 
+[Conditional Rendering](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#conditional-rendering)     |     [Props](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#props)     |     [useState](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#usestate)     |     [State v. Props](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#state-v-props)     |     [useEffect](https://github.com/lillyxcko/React-Notebook/blob/main/4-React-Syntax.md#useeffect)     |
+
+## 5 Handy Concepts
 [Mapping Components](https://github.com/lillyxcko/React-Notebook/blob/main/5-Handy-Concepts.md#MappingComponents)     |     [Pass Objects as Props](https://github.com/lillyxcko/React-Notebook/blob/main/5-Handy-Concepts.md#pass-objects-as-props)     |     [Spread Objects as Props](https://github.com/lillyxcko/React-Notebook/blob/main/5-Handy-Concepts.md#spread-objects-as-props)
 
 ## Extra: 
