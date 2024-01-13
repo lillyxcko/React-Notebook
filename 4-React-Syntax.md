@@ -195,8 +195,18 @@ const App = () => {
 > This creates a counter that can increment and decrement the count with + / - buttons.
 > The state (in this case `counter`) should never be directly mutated; it can only be changed from the setState (in this case `setCounter`).
 
-> Note: `prevCount` is a parameter of the setState, can be called anything 
+> Note: `prevCount` is a parameter of the setState, can be called anything
 
+#### add to arrays with useState 
+```javascript
+const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"])
+    
+function addItem() {
+  setThingsArray(prevThingsArray =>{
+  return [...prevThingsArray, `Thing ${prevThingsArray.length + 1}`]
+  })
+}
+```
 <br>
 
 ## State v. Props
