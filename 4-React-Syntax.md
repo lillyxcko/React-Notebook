@@ -207,6 +207,33 @@ function addItem() {
   })
 }
 ```
+#### updating state objects
+```javascript
+export default function App() {
+    const [contact, setContact] = React.useState({
+        firstName: "John",
+        lastName: "Doe",
+        phone: "+1 (719) 555-1212",
+        email: "itsmyrealname@example.com",
+        isFavorite: false
+    })
+    
+    let starIcon = contact.isFavorite ? "star-filled.png" : "star-empty.png"
+    
+    function toggleFavorite() {
+        setContact(prevContact => {
+            return {
+                ...prevContact,
+                isFavorite: !prevContact.isFavorite
+            }
+        })
+    }
+...
+```
+> The above code is toggling the boolean "isFavorite" between true <-> false.
+
+> It highlights that when updating state objects you must spread (using `...prevContact`) all the properites of the object when changing even just one property.
+
 <br>
 
 ## State v. Props
