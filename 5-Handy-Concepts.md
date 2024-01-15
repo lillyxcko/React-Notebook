@@ -2,7 +2,7 @@
 
 <h5>Concepts:</h5> 
 
-[MappingComponents](#MappingComponents)  |   [Pass: ObjectsAsProps](#pass-objects-as-props)   |   [Spread: ObjectsAsProps](#spread-objects-as-props)   |   [Passing State Around](#passing-state-around)
+[MappingComponents](#MappingComponents)  |   [Pass: ObjectsAsProps](#pass-objects-as-props)   |   [Spread: ObjectsAsProps](#spread-objects-as-props)   |   [Passing State Around](#passing-state-around)     |     [Dynamic Styles](#dynamic-styles)
 
 
 <hr>
@@ -118,3 +118,24 @@ When accessing the prop in the Component you can access properties by: `{props.s
 
 > Alt. React solutions: "Context", third party state management systems "Redux" 
 
+<br>
+
+<hr>
+
+## Dynamic Styles
+```javascript
+    props.darkMode //boolean prop passed onto this component from index.js
+    
+    const styles = {
+        backgroundColor: props.darkMode? '#222222' : '#cccccc'
+    }
+    
+    const squareElements = squares.map(square => (
+        <div style={styles} className="box" key={square.id}></div>
+    ))
+```
+> Here, we are dynamically changing the style of the box dependent on the prop boolean "darkMode"
+
+> The `{ }` in the `style={style}` part represents a javascript section in the code.
+
+> The `const styles = { }` is an object that reads css properities (but in the camel case javascript syntax)
