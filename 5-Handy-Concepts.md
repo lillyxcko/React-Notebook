@@ -2,7 +2,7 @@
 
 <h5>Concepts:</h5> 
 
-[MappingComponents](#MappingComponents)  |   [Pass: ObjectsAsProps](#pass-objects-as-props)   |   [Spread: ObjectsAsProps](#spread-objects-as-props)   |   
+[MappingComponents](#MappingComponents)  |   [Pass: ObjectsAsProps](#pass-objects-as-props)   |   [Spread: ObjectsAsProps](#spread-objects-as-props)   |   [Passing State Around](#passing-state-around)
 
 
 <hr>
@@ -104,4 +104,17 @@ export default function App() {
 When accessing the prop in the Component you can access properties by: `{props.setup}` as usual. 
 
 (`setup` here is a property name)
+
+<br>
+
+<hr>
+
+## Passing State around
+![image](https://github.com/lillyxcko/React-Notebook/assets/79551113/3465de04-abd0-4060-bbd6-3260c616427c)
+
+> Data from a State can only been passed down to children components, not between siblings or uncle/aunt components.
+
+> Therefore if you want to pass the state data to another component which does not have access to it, you need to raise the State into a component higher than it.
+
+> Alt. React solutions: "Context", third party state management systems "Redux" 
 
