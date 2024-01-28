@@ -142,7 +142,7 @@ export default function Contact({img, name, phone, email}) {
     )
 }
 
-export deafult function App() {
+export default function App() {
     return (
         <div className="contacts">
             <Contact 
