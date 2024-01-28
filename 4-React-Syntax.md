@@ -172,11 +172,18 @@ export deafult function App() {
 <br>
 
 ## useState
+> Context: useState is called like a function, used when you wish for the UI to change in response to user interaction or other conditions. It is useful because the process preserves the previous state, and the new state can be generated based on the previous (e.g. counter). If the previous state is not preserved, re-rendering the page will only re-initialize the page to the initial set value (e.g. counter always re-set to 0). 
+
+> ! useState is a React hook, so it can only be called at the top level of functional components, not within loops, conditions, or classes.
+
+> !! useState can directly take a function as a parameter `useState(functionName())`- this function will be run every time the component renders.
+> This is different than passing a function that calls a function `useState(() => functionName())` - the function called will only run on first render.
+
 1. import useState hook `import { useState } from 'react';`
 2. inside component at top: `const [] = useState();`
-3. destructure the array - index 0 in the array is the name of the state, index 1 is the setter function - named with 'set':
+3. destructure the array - index 0 in the array is the name of the state and contains the current state value, index 1 is the setter function - named with 'set', used to update state:
     `const [counter, setCounter] = useState();`
-4. define the initial value `const [counter, setCounter] = useState(0);`
+4. define the initial value in the brackets () `const [counter, setCounter] = useState(0);`
 ```javascript
 import { useState } from 'react';
 
@@ -230,7 +237,7 @@ export default function App() {
 ```
 > The above code is toggling the boolean "isFavorite" between true <-> false.
 
-> It highlights that when updating state objects you must spread (using `...prevContact`) all the properites of the object when changing even just one property.
+> It highlights that when updating state objects you must spread (using `...prevContact`) all the properites of the object when changing even just one property. This is beacuse when state is set using useState hook, objects are overriding all of the old states rather than simply merging them. 
 
 <br>
 
@@ -246,6 +253,8 @@ Takeaway: use states if the attribute may be altered at some point, and props if
 <br>
 
 ## useEffect
+> Context: useEffect hook is used to produce a "side effect" whenever something happens. By default, it occurs every time an application renders. The second parameter of useEffect is a dependecy array `[]` that controls when the useEffect hook runs. 
+
 import useEffect hook `import { useEffect } from 'react';`
 ```javascript
   useEffect(() => {
